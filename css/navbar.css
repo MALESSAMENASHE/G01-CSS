@@ -1,0 +1,31 @@
+.navbar{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+
+}
+.nav-middle{
+ 
+   flex-grow:1;
+   
+}
+.flix{
+   display: flex;
+   justify-content: center;
+   font-weight: 600;
+   font-size: 15px;
+   align-items: center;
+}
+.flix div{
+   margin:0 15px 0;
+}
+
+
+.small-grey-border{
+   background: #DAD8D8;
+   width: 1px;
+height: 19px;
+}
+.nav-right{
+   
+}
