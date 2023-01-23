@@ -13,6 +13,7 @@
     /* The default font size of the browser is 16px, so if we want 1rem to be equal to 10px, we divide 10px by 16px = 62.5% */
     font-size: 62.5%;
   }
+
   
     
 
@@ -32,4 +33,56 @@
   a {
     text-decoration: none;
   }
+
+  .wayustop{ 
+    display: grid;
+    width: 1284px;
+    height:273px ;
+    gap: 0px;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    /* align-items: center; */
+    
+   }
+   .text h2{
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 64px;
+    font-style: normal;
+   
+   }
+   .text p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    font-style: normal;
+
+   }
   
+
+
+    .logos {  
+      display: grid;
+    
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+      grid-auto-columns: 1fr;
+      gap: 0px 10px;
+      grid-auto-flow: row;
+      grid-template-areas:
+        "imglogo1 iimglogo2 imglogo3"
+        "imglogo4 imglogo5 imglogo6";
+    }
+    
+    .imglogo1 { grid-area: imglogo1; }
+    
+    .iimglogo2 { grid-area: iimglogo2; }
+    
+    .imglogo3 { grid-area: imglogo3; }
+    
+    .imglogo4 { grid-area: imglogo4; }
+    
+    .imglogo5 { grid-area: imglogo5; }
+    
+    .imglogo6 { grid-area: imglogo6; }
+    
